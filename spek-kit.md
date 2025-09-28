@@ -1,22 +1,35 @@
 ---
 marp: true
-theme: gaia
-style: |
-  @import 'custom.css';
+theme: ownstyle-theme
 paginate: true
+title: サンプルスライド
+description: サンプルスライドです。
 ---
+
+<!-- _class: title -->
+<!-- _paginate: false -->
+
+
+<div></div>
+
 
 # Spec Kitの活用
 
+hogehoge
+
 ---
 
-## Spec Kitとは
+<!-- _class: content-image -->
+# Spec Kitとは
 Spec Kitは、GitHubが2025年9月に発表した、仕様駆動開発（Spec-Driven Development）を支援するオープンソースのツールキット。
 AIを活用してソフトウェア開発の仕様策定からタスク洗い出しまで行える。
+[github/spec-kit](https://github.com/github/spec-kit.git)
+
+![w:500px](https://placehold.jp/300x200.png)
 
 ---
 
-## Spec Kitの準備
+# Spec Kitの準備
 1.  Spec Kitの実行
   ```bash
   uvx --from git+https://github.com/github/spec-kit.git specify init --here
@@ -25,7 +38,7 @@ AIを活用してソフトウェア開発の仕様策定からタスク洗い出
 
 ---
 
-## Spec Kitの進め方
+# Spec Kitの進め方
 
 <ul class="timeline">
   <li class="timeline-item">
