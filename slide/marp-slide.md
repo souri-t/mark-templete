@@ -1,10 +1,11 @@
 ---
 marp: true
-theme: gaia
-style: |
-  @import 'custom.css';
+theme: ownstyle-theme
 paginate: true
+title: サンプルスライド
+description: サンプルスライドです。
 ---
+
 
 # 新製品「Project Alpha」のご提案
 
