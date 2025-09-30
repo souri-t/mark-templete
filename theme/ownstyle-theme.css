@@ -535,4 +535,11 @@ section {
         }
     }
 
+    h1 {
+        background-image: url('https://placehold.jp/780x80.png');
+        /* background-size: cover; */
+        background-position: center;
+        color: white; /* 必要に応じて文字色も調整 */
+        /* padding: 1em 0; */
+    }
 }
